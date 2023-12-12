@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Controle Financeiro</title>
+    <!-- chamada da CSS do BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- link para CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Link para Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Inicio do Header -->
+  <header class="container-fluid cabecalho">
+    <div class="container ">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="my-3">
+          <img src="./images/profile.jpg" alt="foto de perfil do usuario" class="profile-pic">
+        </div>
+        <div>
+          <a href="#"><i class="fa-solid fa-eye-slash"></i></a>
+          <a href="#"><i class="fa-regular fa-circle-question"></i></a>
+        </div>
+      </div>
+      <div class="pb-3">
+        <h2 class="display-2 fs-3">Ricardo Luiz Favale Garcia</h2>
+      </div>
+    </div>
+  </header>
+  <!-- Fim do Header -->
+
+  <main class="container">
+
+    <!-- Informações do Saldo -->
+    <section class="my-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <h3 class="display-2 fs-5">Conta</h3>
+        <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+      <div>
+        <p class="fs-5 pt-2">R$: 100.000,00</p>
+      </div>
+    </section>
+    <!-- Final das Informações do Saldo -->
+
+    <!-- Inicio da Navegação original-->
+    <nav>
+      <div class="my-5">
+        <ul class="d-flex justify-content-between">
+          <li class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-money-bills"></i>
+            <a class="nav-link pt-2" href="#">Entrada</a>
+          </li>
+          <li class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-money-bills"></i>
+            <a class="nav-link pt-2" href="#">Saída</a>
+          </li>
+          <li class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-money-bill-trend-up"></i>
+            <a class="nav-link pt-2" href="#">Investimentos</a>
+          </li>
+          <li class="d-flex flex-column align-items-center">
+            <i class="fa-solid fa-bullseye"></i>
+            <a class="nav-link pt-2" href="#">Objetivos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Final da navegação -->
+
+    <!-- Historico de transações -->
+    <section class="pb-5">
+      <div class="d-flex justify-content-between my-3 pb-3">
+        <h3 class="display-3 fs-5">Ultimas transações</h3>
+        <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+      <div class="row border p-3">
+        <div class="col-6 py-2">Salario</div>
+        <div class="col-6 text-end py-2">05/10/2023</div>
+        <div class="col-12 ">R$ 10.000,00</div>
+      </div>
+      <div class="row border p-3">
+        <div class="col-6 py-2">Almoço</div>
+        <div class="col-6 text-end py-2">04/10/2023</div>
+        <div class="col-12 ">R$ 1.500,00</div>
+      </div>
+      <div class="row border p-3">
+        <div class="col-6 py-2">Gasolina</div>
+        <div class="col-6 text-end py-2">03/10/2023</div>
+        <div class="col-12 ">R$ 1.500,00</div>
+      </div>
+      <div class="row border p-3">
+        <div class="col-6 py-2">Roupa</div>
+        <div class="col-6 text-end py-2">01/10/2023</div>
+        <div class="col-12 ">R$ 2.500,00</div>
+      </div>
+    </section>
+  </main>
+    <!-- final de Historico de transações -->
+
+
+  <!-- chamada do js pelo bs -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

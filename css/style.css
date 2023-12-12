@@ -1,0 +1,19 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho{
+  background-color: #80E142;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000
+}
+
